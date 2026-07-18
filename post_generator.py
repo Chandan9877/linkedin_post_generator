@@ -28,8 +28,8 @@ def get_prompt(length, language, tag):
     1) Topic: {tag}
     2) Length: {length_str}
     3) Language: {language}
-    If Language is Hinglish then it means it is a mix of Hindi and English. 
-    The script for the generated post should always be English.
+     If Language is Hinglish then it means it is a mix of Hindi and English. 
+    I want something like a post written mix of Hindi and English words but must be spelt in Enlgish.
     '''
     # prompt = prompt.format(post_topic=tag, post_length=length_str, post_language=language)
 
